@@ -1,8 +1,8 @@
 package BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.Beer330ml;
 
-import BusinessLogicLayer.Abstractions.IAlcoholicDrink;
+import BusinessLogicLayer.Abstractions.Beer330ml;
 
-public class Heineken implements IAlcoholicDrink {
+public class Heineken extends Beer330ml {
     
     @Override
     public String getItemName() {

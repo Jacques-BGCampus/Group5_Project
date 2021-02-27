@@ -1,8 +1,8 @@
 package BusinessLogicLayer.DataObjects.Menus.DrinkItems.NonAlcoholicDrinks.BottledWater500ml;
 
-import BusinessLogicLayer.Abstractions.INonAlcoholicDrinks;
+import BusinessLogicLayer.Abstractions.BottledWater500ml;
 
-public class Bonaqua implements INonAlcoholicDrinks{
+public class Bonaqua extends BottledWater500ml {
     
     @Override
     public String getItemName() {

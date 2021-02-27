@@ -1,17 +1,17 @@
 package BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.Spirits750ml;
 
-import BusinessLogicLayer.Abstractions.IAlcoholicDrink;
+import BusinessLogicLayer.Abstractions.SpiritsBottle750ml;
 
-public class KlipdriftBrandy implements IAlcoholicDrink{
+public class KlipdriftBrandy extends SpiritsBottle750ml{
 
     @Override
     public String getItemName() {
-        return "1 x 200ml Klipdrift Brandy Bottle";
+        return "1 x 750ml Klipdrift Brandy Bottle";
     }
 
     @Override
     public double getPrice() {
-        return 49.0d;
+        return 150.0d;
     }
     
 }

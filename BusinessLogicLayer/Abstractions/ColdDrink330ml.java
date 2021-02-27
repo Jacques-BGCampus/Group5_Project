@@ -1,5 +1,9 @@
 package BusinessLogicLayer.Abstractions;
 
-public abstract class ColdDrink330ml {
+public abstract class ColdDrink330ml implements INonAlcoholicDrink {
     
+    @Override
+    public String getItemType() {
+        return "330ml cold drink";
+    }
 }

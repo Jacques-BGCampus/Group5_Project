@@ -6,13 +6,11 @@ public class Kota extends AdultMainCourse {
 
     @Override
     public String getItemName() {
-
         return "Sausage, Cheese, fries in a half loaf";
     }
 
     @Override
     public double getPrice() {
-
         return 15.99;
     }
 

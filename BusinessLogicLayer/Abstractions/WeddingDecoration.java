@@ -1,5 +1,5 @@
 package BusinessLogicLayer.Abstractions;
 
-public abstract class WeddingDecoration {
+public abstract class WeddingDecoration implements IDecorationItem {
 
 }

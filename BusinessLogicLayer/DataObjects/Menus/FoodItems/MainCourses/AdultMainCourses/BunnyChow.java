@@ -7,13 +7,13 @@ public class BunnyChow extends AdultMainCourse {
     @Override
     public String getItemName() {
         // TODO Auto-generated method stub
-        return null;
+        return "Chicken/Beef Bunny Chow with fries and coleslaw";
     }
 
     @Override
     public double getPrice() {
         // TODO Auto-generated method stub
-        return 0;
+        return 25.50;
     }
 
 }

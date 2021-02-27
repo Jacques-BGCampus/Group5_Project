@@ -1,8 +1,8 @@
 package BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.Spirits750ml;
 
-import BusinessLogicLayer.Abstractions.IAlcoholicDrinks;
+import BusinessLogicLayer.Abstractions.IAlcoholicDrink;
 
-public class BellsWhiskey implements IAlcoholicDrinks {
+public class BellsWhiskey implements IAlcoholicDrink {
 
     @Override
     public String getItemName() {

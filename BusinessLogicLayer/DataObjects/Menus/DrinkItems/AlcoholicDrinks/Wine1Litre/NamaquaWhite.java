@@ -1,8 +1,8 @@
 package BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.Wine1Litre;
 
-import BusinessLogicLayer.Abstractions.IAlcoholicDrinks;
+import BusinessLogicLayer.Abstractions.IAlcoholicDrink;
 
-public class NamaquaWhite implements IAlcoholicDrinks{
+public class NamaquaWhite implements IAlcoholicDrink{
     
     @Override
     public String getItemName() {

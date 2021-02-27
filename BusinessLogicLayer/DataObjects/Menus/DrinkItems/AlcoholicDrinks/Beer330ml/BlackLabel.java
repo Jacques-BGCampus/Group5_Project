@@ -1,8 +1,6 @@
 package BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.Beer330ml;
 
-import BusinessLogicLayer.Abstractions.IAlcoholicDrinks;
-
-public class BlackLabel implements IAlcoholicDrinks {
+public class BlackLabel {
  
     // If we need to be concerned about copyrights, we might want
     // to change some names/descriptions.

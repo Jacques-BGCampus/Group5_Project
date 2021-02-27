@@ -1,5 +1,25 @@
 package BusinessLogicLayer.DataObjects.Menus.FoodItems.Desserts;
 
-public class Cake {
-    
+import BusinessLogicLayer.Abstractions.Dessert;
+
+public class Cake extends Dessert {
+
+    @Override
+    public String getItemType() {
+
+        return "Dessert";
+    }
+
+    @Override
+    public String getItemName() {
+
+        return "Cake";
+    }
+
+    @Override
+    public double getPrice() {
+
+        return 49.99;
+    }
+
 }

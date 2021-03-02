@@ -1,8 +1,8 @@
 package BusinessLogicLayer.DataObjects.Menus.DrinkItems.NonAlcoholicDrinks.ColdDrink2Litre;
 
-import BusinessLogicLayer.Abstractions.INonAlcoholicDrinks;
+import BusinessLogicLayer.Abstractions.ColdDrink2Litre;
 
-public class Sprite2Litre implements INonAlcoholicDrinks{
+public class Sprite2Litre extends ColdDrink2Litre{
    
     @Override
     public String getItemName() {

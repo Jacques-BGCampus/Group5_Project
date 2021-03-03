@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Themes.Decorations.YearEndDecorations;
+package ServerSide.BusinessLogicLayer.DataObjects.Themes.Decorations.YearEndDecorations;
 
-import BusinessLogicLayer.Abstractions.YearEndDecor;
+import ServerSide.BusinessLogicLayer.Abstractions.YearEndDecor;
 
 public class YearEndBalloon extends YearEndDecor {
 

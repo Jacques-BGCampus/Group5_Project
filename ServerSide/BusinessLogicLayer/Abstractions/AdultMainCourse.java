@@ -1,4 +1,4 @@
-package BusinessLogicLayer.Abstractions;
+package ServerSide.BusinessLogicLayer.Abstractions;
 
 public abstract class AdultMainCourse implements IMainCourse {
 
@@ -6,7 +6,4 @@ public abstract class AdultMainCourse implements IMainCourse {
     public String getItemType() {
         return "Adult Main Course";
     }
-
-
-
 }

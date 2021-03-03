@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Themes.Decorations.BaptismDecorations;
+package ServerSide.BusinessLogicLayer.DataObjects.Themes.Decorations.BaptismDecorations;
 
-import BusinessLogicLayer.Abstractions.BaptismDecoration;
+import ServerSide.BusinessLogicLayer.Abstractions.BaptismDecoration;
 
 public class BaptismBalloons extends BaptismDecoration {
 

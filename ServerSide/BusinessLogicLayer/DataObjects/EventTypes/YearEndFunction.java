@@ -1,4 +1,4 @@
-package BusinessLogicLayer.DataObjects.EventTypes;
+package ServerSide.BusinessLogicLayer.DataObjects.EventTypes;
 
 public class YearEndFunction {
     

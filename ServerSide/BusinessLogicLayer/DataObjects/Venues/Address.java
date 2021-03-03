@@ -1,4 +1,4 @@
-package BusinessLogicLayer.DataObjects.Venues;
+package ServerSide.BusinessLogicLayer.DataObjects.Venues;
 
 public class Address {
     

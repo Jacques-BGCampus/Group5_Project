@@ -1,4 +1,4 @@
-package BusinessLogicLayer.DataObjects.Bookings;
+package ServerSide.BusinessLogicLayer.DataObjects.Bookings;
 
 public class Client {
     

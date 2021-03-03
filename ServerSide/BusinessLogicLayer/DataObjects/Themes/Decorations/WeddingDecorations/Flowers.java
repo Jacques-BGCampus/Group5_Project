@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Themes.Decorations.WeddingDecorations;
+package ServerSide.BusinessLogicLayer.DataObjects.Themes.Decorations.WeddingDecorations;
 
-import BusinessLogicLayer.Abstractions.WeddingDecoration;
+import ServerSide.BusinessLogicLayer.Abstractions.WeddingDecoration;
 
 public class Flowers extends WeddingDecoration {
 

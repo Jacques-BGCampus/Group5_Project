@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.DrinkItems.NonAlcoholicDrinks.BottledWater500ml;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.DrinkItems.NonAlcoholicDrinks.BottledWater500ml;
 
-import BusinessLogicLayer.Abstractions.BottledWater500ml;
+import ServerSide.BusinessLogicLayer.Abstractions.BottledWater500ml;
 
 public class Valpre extends BottledWater500ml{
     

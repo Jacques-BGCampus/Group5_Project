@@ -1,9 +1,9 @@
-package BusinessLogicLayer.DataObjects.Menus;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import BusinessLogicLayer.Abstractions.IMenuItem;
+import ServerSide.BusinessLogicLayer.Abstractions.IMenuItem;
 
 public class Menu {
     private List<IMenuItem> items;

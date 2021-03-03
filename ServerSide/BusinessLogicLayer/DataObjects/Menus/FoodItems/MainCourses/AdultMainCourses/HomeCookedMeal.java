@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.FoodItems.MainCourses.AdultMainCourses;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.FoodItems.MainCourses.AdultMainCourses;
 
-import BusinessLogicLayer.Abstractions.AdultMainCourse;
+import ServerSide.BusinessLogicLayer.Abstractions.AdultMainCourse;
 
 public class HomeCookedMeal extends AdultMainCourse {
 

@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.WineBoxOrBottle;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.WineBoxOrBottle;
 
-import BusinessLogicLayer.Abstractions.WineBoxOrBottle;
+import ServerSide.BusinessLogicLayer.Abstractions.WineBoxOrBottle;
 
 public class NederbergRose extends WineBoxOrBottle {
     

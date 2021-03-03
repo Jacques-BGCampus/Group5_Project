@@ -1,4 +1,4 @@
-package BusinessLogicLayer.Abstractions;
+package ServerSide.BusinessLogicLayer.Abstractions;
 
 public interface IEventItem {
     public String getItemType();

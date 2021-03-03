@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.FoodItems.Appetizers;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.FoodItems.Appetizers;
 
-import BusinessLogicLayer.Abstractions.Appetizer;
+import ServerSide.BusinessLogicLayer.Abstractions.Appetizer;
 
 public class Samosas extends Appetizer {
 

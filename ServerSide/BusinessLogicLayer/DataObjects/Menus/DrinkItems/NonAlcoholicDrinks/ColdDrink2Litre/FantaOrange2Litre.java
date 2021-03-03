@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.DrinkItems.NonAlcoholicDrinks.ColdDrink2Litre;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.DrinkItems.NonAlcoholicDrinks.ColdDrink2Litre;
 
-import BusinessLogicLayer.Abstractions.ColdDrink2Litre;
+import ServerSide.BusinessLogicLayer.Abstractions.ColdDrink2Litre;
 
 public class FantaOrange2Litre extends ColdDrink2Litre{
     

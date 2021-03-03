@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.Spirits750ml;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.Spirits750ml;
 
-import BusinessLogicLayer.Abstractions.SpiritsBottle750ml;
+import ServerSide.BusinessLogicLayer.Abstractions.SpiritsBottle750ml;
 
 public class SmirnoffVodka extends SpiritsBottle750ml {
   

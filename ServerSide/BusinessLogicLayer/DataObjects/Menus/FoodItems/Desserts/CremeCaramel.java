@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.FoodItems.Desserts;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.FoodItems.Desserts;
 
-import BusinessLogicLayer.Abstractions.Dessert;
+import ServerSide.BusinessLogicLayer.Abstractions.Dessert;
 
 public class CremeCaramel extends Dessert {
 

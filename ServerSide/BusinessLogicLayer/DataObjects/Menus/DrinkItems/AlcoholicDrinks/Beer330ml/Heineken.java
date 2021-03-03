@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.Beer330ml;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.DrinkItems.AlcoholicDrinks.Beer330ml;
 
-import BusinessLogicLayer.Abstractions.Beer330ml;
+import ServerSide.BusinessLogicLayer.Abstractions.Beer330ml;
 
 public class Heineken extends Beer330ml {
     

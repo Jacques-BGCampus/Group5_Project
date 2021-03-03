@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.DrinkItems.NonAlcoholicDrinks.ColdDrink330ml;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.DrinkItems.NonAlcoholicDrinks.ColdDrink330ml;
 
-import BusinessLogicLayer.Abstractions.ColdDrink330ml;
+import ServerSide.BusinessLogicLayer.Abstractions.ColdDrink330ml;
 
 public class CreamSoda330ml extends ColdDrink330ml{
     

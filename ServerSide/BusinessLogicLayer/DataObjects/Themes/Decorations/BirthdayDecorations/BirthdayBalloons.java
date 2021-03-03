@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Themes.Decorations.BirthdayDecorations;
+package ServerSide.BusinessLogicLayer.DataObjects.Themes.Decorations.BirthdayDecorations;
 
-import BusinessLogicLayer.Abstractions.BirthdayDecoration;
+import ServerSide.BusinessLogicLayer.Abstractions.BirthdayDecoration;
 
 public class BirthdayBalloons extends BirthdayDecoration {
 

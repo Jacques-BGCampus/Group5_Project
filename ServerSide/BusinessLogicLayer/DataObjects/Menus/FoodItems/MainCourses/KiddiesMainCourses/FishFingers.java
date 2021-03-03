@@ -1,6 +1,6 @@
-package BusinessLogicLayer.DataObjects.Menus.FoodItems.MainCourses.KiddiesMainCourses;
+package ServerSide.BusinessLogicLayer.DataObjects.Menus.FoodItems.MainCourses.KiddiesMainCourses;
 
-import BusinessLogicLayer.Abstractions.KiddiesMainCourse;
+import ServerSide.BusinessLogicLayer.Abstractions.KiddiesMainCourse;
 
 public class FishFingers extends KiddiesMainCourse{
 

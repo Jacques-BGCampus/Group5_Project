@@ -1,4 +1,4 @@
-package BusinessLogicLayer.Abstractions;
+package ServerSide.BusinessLogicLayer.Abstractions;
 
 public abstract class BottledWater500ml implements INonAlcoholicDrink {
     

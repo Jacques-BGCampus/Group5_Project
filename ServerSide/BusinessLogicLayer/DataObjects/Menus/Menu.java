@@ -15,19 +15,39 @@ public class Menu {
         this.menuItems = new ArrayList<>();
     }
 
-    // Add item into current menu
+    // Add any IMenuItem into current menu
     public boolean addItem(IMenuItem item) {
-        // Returns if the add operation was successful
+        // Returns whether the add operation was successful
         return menuItems.add(item);
+    }
+
+    // get a list of all the food items in the menuItems list
+    public List<IFoodItem> getAllFoodItems() {
+        List<IFoodItem> foodItems = new ArrayList<>();
+        for (IMenuItem menuItem : menuItems) {
+            if (menuItem instanceof IFoodItem) {
+                foodItems.add((IFoodItem)menuItem);
+            }
+        }
+        return foodItems;
+    }
+
+    // get a list of all the drink items in the menuItems list
+    public List<IDrinkItem> getAllDrinkItems() {
+        List<IDrinkItem> drinkItems = new ArrayList<>();
+        for (IMenuItem menuItem : menuItems) {
+            if (menuItem instanceof IDrinkItem) {
+                drinkItems.add((IDrinkItem)menuItem);
+            }
+        }
+        return drinkItems;
     }
 
     // Get the total cost of all MenuItems that happen to be FoodItems
     public double getTotalFoodCost() {
         double total = 0.0;
-        for (IMenuItem iMenuItem : menuItems) {
-            if (iMenuItem instanceof IFoodItem) {
-                total += iMenuItem.getPrice();
-            }
+        for (IFoodItem foodItem : getAllFoodItems()) {
+            total += foodItem.getPrice();
         }
         return total;
     }
@@ -35,10 +55,8 @@ public class Menu {
     // Get the total cost of all MenuItems that happen to be DrinkItems
     public double getTotalDrinksCost() {
         double total = 0.0;
-        for (IMenuItem iMenuItem : menuItems) {
-            if (iMenuItem instanceof IDrinkItem) {
-                total += iMenuItem.getPrice();
-            }
+        for (IDrinkItem drinkItem : getAllDrinkItems()) {
+            total += drinkItem.getPrice();
         }
         return total;
     }

@@ -15,7 +15,9 @@ public class Menu {
         this.menuItems = new ArrayList<>();
     }
 
+    // Add item into current menu
     public boolean addItem(IMenuItem item) {
+        // Returns if the add operation was successful
         return menuItems.add(item);
     }
 

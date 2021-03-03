@@ -1,19 +1,13 @@
 package ServerSide.BusinessLogicLayer.DataObjects.Themes.Decorations.YearEndDecorations;
 
-import ServerSide.BusinessLogicLayer.Abstractions.YearEndDecor;
+import ServerSide.BusinessLogicLayer.Abstractions.YearEndDecoration;
 
-public class Games extends YearEndDecor {
-
-    @Override
-    public String getItemType() {
-
-        return "Decoration";
-    }
+public class Games extends YearEndDecoration {
 
     @Override
     public String getItemName() {
 
-        return "Games";
+        return "Board Games";
     }
 
     @Override

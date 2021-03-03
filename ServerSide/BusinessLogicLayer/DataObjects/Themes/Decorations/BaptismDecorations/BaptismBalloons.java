@@ -5,15 +5,9 @@ import ServerSide.BusinessLogicLayer.Abstractions.BaptismDecoration;
 public class BaptismBalloons extends BaptismDecoration {
 
     @Override
-    public String getItemType() {
-
-        return "Decorations";
-    }
-
-    @Override
     public String getItemName() {
 
-        return "Baptism Balloon";
+        return "5 x Baptism Balloons";
     }
 
     @Override

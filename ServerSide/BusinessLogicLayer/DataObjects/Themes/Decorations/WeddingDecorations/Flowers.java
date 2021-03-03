@@ -5,12 +5,6 @@ import ServerSide.BusinessLogicLayer.Abstractions.WeddingDecoration;
 public class Flowers extends WeddingDecoration {
 
     @Override
-    public String getItemType() {
-
-        return "Decoration";
-    }
-
-    @Override
     public String getItemName() {
 
         return "Flowers";

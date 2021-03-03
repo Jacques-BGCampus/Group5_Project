@@ -4,6 +4,6 @@ public abstract class ColdDrink2Litre implements INonAlcoholicDrink {
     
     @Override
     public String getItemType() {
-        return "2 litre cold drink";
+        return "2 Litre Cold Drink";
     }
 }

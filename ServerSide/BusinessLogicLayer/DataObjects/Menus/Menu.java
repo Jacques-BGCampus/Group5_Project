@@ -8,6 +8,7 @@ import ServerSide.BusinessLogicLayer.Abstractions.IFoodItem;
 import ServerSide.BusinessLogicLayer.Abstractions.IMenuItem;
 
 public class Menu {
+    // Our list of menu items that will be ordered for the day
     private List<IMenuItem> menuItems;
 
     public Menu() {

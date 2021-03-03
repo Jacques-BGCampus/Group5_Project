@@ -4,6 +4,6 @@ public abstract class Beer330ml implements IAlcoholicDrink {
     
     @Override
     public String getItemType() {
-        return "330ml bottle of beer";
+        return "330ml Bottle of Beer";
     }
 }

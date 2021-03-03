@@ -6,7 +6,7 @@ public class CaptainMorganRum extends SpiritsBottle750ml {
 
     @Override
     public String getItemName() {
-        return "1 x 750 ml Captain Morgan Black Jamaica Rum";
+        return "1 x 750ml Captain Morgan Black Jamaica Rum";
     }
 
     @Override

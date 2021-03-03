@@ -1,5 +1,7 @@
 package ServerSide.BusinessLogicLayer.DataObjects.Bookings;
 
-public class Booking {
+import java.io.Serializable;
+
+public class Booking implements Serializable {
     
 }

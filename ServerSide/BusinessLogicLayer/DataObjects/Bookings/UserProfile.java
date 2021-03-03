@@ -1,6 +1,8 @@
 package ServerSide.BusinessLogicLayer.DataObjects.Bookings;
 
-public class UserProfile {
+import java.io.Serializable;
+
+public class UserProfile implements Serializable {
     
     public enum UserType {
         USER,

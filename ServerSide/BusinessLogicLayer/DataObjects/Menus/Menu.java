@@ -21,6 +21,12 @@ public class Menu {
         return menuItems.add(item);
     }
 
+    // Remove any IMenuItem from current menu
+    public boolean removeItem(IMenuItem item) {
+        // Returns whether the remove operation was successful
+        return menuItems.remove(item);
+    }
+
     // get a list of all the food items in the menuItems list
     public List<IFoodItem> getAllFoodItems() {
         List<IFoodItem> foodItems = new ArrayList<>();
